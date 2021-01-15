@@ -44,7 +44,6 @@ dependencies {
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	kapt("org.springframework.boot:spring-boot-configuration-processor")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
-
 	testImplementation(platform("io.strikt:strikt-bom:0.28.1"))
     testImplementation("com.ninja-squad:springmockk:2.0.3")
     testImplementation("io.strikt:strikt-core")
